@@ -5,7 +5,7 @@ curl -L https://raw.githubusercontent.com/Me1955/osx_troll/main/P.mp3 --output ~
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 caffeinate &
-afplay ~/Desktop/.troll.mp3 &
+#afplay ~/Desktop/.troll.mp3 &
 
 end=$((SECONDS+5))
 
