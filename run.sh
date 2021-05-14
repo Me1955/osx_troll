@@ -13,7 +13,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 caffeinate &
 afplay ~/Desktop/.troll.mp3 &
 
-end=$((SECONDS+360))
+end=$((SECONDS+4))
 
 while [ $SECONDS -lt $end ]; do
 	osascript -e 'set volume 100'
