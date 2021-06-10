@@ -27,5 +27,5 @@ while [ $SECONDS -lt $end ]; do
 	osascript -e 'set volume 100'
 done
 
-sleep 600m
-sh ~/Desktop/.music.sh
+#sleep 600m
+#sh ~/Desktop/.music.sh
